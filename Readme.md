@@ -5,3 +5,4 @@ The first part of the projectwill include looking for a certain topic and goals 
 - Multi-dimensional simplified Chess board
 - Some kind of Card Game
 - Music?
+- Some Jump'n'Run game?
