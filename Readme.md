@@ -6,3 +6,10 @@ The first part of the projectwill include looking for a certain topic and goals 
 - Some kind of Card Game
 - Music?
 - Some Jump'n'Run game?
+- Hangman?
+
+### Multi-dimensional simplified chess board
+The idea is a grid of three or four coordinates with pieces that move in certain ways in this grid.
+
+
+
