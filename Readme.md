@@ -20,3 +20,6 @@ sth else
 
 ### Some Jump'n'Run game
 Some randomly generated (or maybe prefixed levels?) path, a player has to steer through, to achieve points.
+
+### Hangman
+This game can be very fun and entertainig as my experiences in French class proves.
