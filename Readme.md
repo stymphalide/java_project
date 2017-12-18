@@ -12,6 +12,8 @@ The first part of the projectwill include looking for a certain topic and goals 
 The idea is a grid of three or four coordinates with pieces that move in certain ways in this grid.
 
 ### Some Kind of Card Game
+A game based on the idea of [set](https://en.wikipedia.org/wiki/Set_(game) "Wikipedia").
+But can be combined with the ear trainer, such that one feature is auditive, e.g. hearing an interval.
 
 ### Music
 Maybe a Ear trainer?
