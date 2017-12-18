@@ -1,6 +1,6 @@
 # Java Project
 This project is being created as a programming project in Informatics class.
-The first part of the projectwill include looking for a certain topic and goals for the project.
+The first part of the project will include looking for a certain topic and goals for the project.
 ## Ideas For Topics
 - Multi-dimensional simplified Chess board
 - Some kind of Card Game
@@ -24,4 +24,4 @@ sth else
 Some randomly generated (or maybe prefixed levels?) path, a player has to steer through, to achieve points.
 
 ### Hangman
-This game can be very fun and entertainig as my experiences in French class proves.
+This game can be very fun and entertaining as my experiences in French class proves.
