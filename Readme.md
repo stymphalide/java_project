@@ -8,4 +8,4 @@ But can be combined with the ear trainer, such that one feature is auditive, e.g
 
 ## Required Libraries
  - `java.awt` ==> Grafische Oberfläche
- - Midi-Library
+ - `javax.sound.midi` ==> Midi-Library
