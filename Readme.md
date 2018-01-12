@@ -10,14 +10,6 @@ This project is being created as a programming project in Informatics class with
 [Code of Conduct](#code-of-conduct)
 
 ## TODOS
-- [ ] Create the Project Dossier for MSI
-	- [ ] Add a Project Description 1/4 page
-	- [ ] Definition of the Problem
-	- [ ] Analysis of the Requirements
-	- [ ] Specifications
-	- [ ] Draft (UML)
-	- [ ] Copy Implementation
-	- [ ] Results and Tests
 - [ ] Initialise Project
 	- [ ] Gradle Command
 	- [ ] Git init
@@ -28,6 +20,14 @@ This project is being created as a programming project in Informatics class with
 	- [ ] Create predefined directory structure
 	- [ ] Write first classes
 	- [ ] Write first tests
+- [ ] Create the Project Dossier for MSI
+	- [ ] Add a Project Description 1/4 page
+	- [ ] Definition of the Problem
+	- [ ] Analysis of the Requirements
+	- [ ] Specifications
+	- [ ] Draft (UML)
+	- [ ] Copy Implementation
+	- [ ] Results and Tests
 	- [ ] Push to github
 - [ ] Finish the Project
 	- [ ] Write a working interface
