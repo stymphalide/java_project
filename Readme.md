@@ -45,13 +45,15 @@ Our idea is to use this notion of a set and apply it to music.
 Instead of having a 3x3 grid where one has to find a set, we will use a simpler version of the game.
 In this version two 'cards' already lie on the table. By the rules of set, the third card is clearly determined.
 
-In our version of the game the visual features of color, number, symbol and shading are replaced by auditive features.
+In our version of the game the visual features of colour, number, symbol and shading are replaced by auditive features.
 These auditive features are:
 
-[//]: # (@TODO: Fill in the gaps here.)
-
- - Interval size (Out of a predetermined list of three)
- - ...
+ - Which interval is it (out of a predetermined list of three)?
+ - Is the lower or the higher note played first or are they played simultaneously?
+ - In which range is the interval (high, middle, low)?
+ - By which instrument is the interval played (out of a predetermined list of three)?
+ 
+[//]: # (@TODO: Define high, middle and low range.)
 
 [//]: # (@TODO: Refactor this into a project description part)
 
@@ -72,7 +74,7 @@ Note: Since Windows and Linux handles line endings differently there has to be s
 ### Gradle
 A Build tool for our application. Takes the task of compiling the code and running tests away from us. Can also be used to create a `.jar` file. It also sets up a basic project, and most importantly can be used as a plugin in eclipse. This way we can make sure, that the setup of our application 'fits' for the IDE but can still be developed outside.
  - [Gradle Build Tool](https://gradle.org/ "gradle build tool") with tutorials on how to use it
- - [Eclipse Plugin Installation guide](http://www.vogella.com/tutorials/EclipseGradle/article.html "gradle plugin for eclipe") Remark: Make sure to install `gradle 4.4.1` or the corresponding version I don't know if there can be conflicts if we use different versions (Though I doubt that.)
+ - [Eclipse Plugin Installation guide](http://www.vogella.com/tutorials/EclipseGradle/article.html "gradle plugin for eclipe") Remark: Make sure to install `gradle 4.4.1` or the corresponding version. I don't know if there can be conflicts if we use different versions (though I doubt that).
  - [Github source code](https://github.com/gradle/gradle "gradle")
  - [Add dependencies](https://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file "gradle dependency stackoverflow")
 
@@ -153,17 +155,15 @@ Or clone this repository
 ## Task Sharing
 Task | Person
 -----|-------
-Dependency Management | TBD
-Tests | TBD
+Level Design | Both
+Dependency Management | Angelo
+Tests | Both
 Interface | Angelo
 JavaFX | Angelo
-Gradle Build | TBD
+Gradle Build | Angelo
 jFugue | Tobias
-Music Theory | TBD
-Music Choice | TBD
-Level Design | TBD
-
-[//]: # (@TODO: More explicit, Determine Persons)
+Music Theory | Tobias
+Music Composition | Tobias
 
 ## Code of Conduct
 Based on the requirements in the Milestone I file.
