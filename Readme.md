@@ -10,6 +10,14 @@ This project is being created as a programming project in Informatics class with
 [Code of Conduct](#code-of-conduct)
 
 ## TODOS
+- [ ] Create the Project Dossier for MSI
+	- [ ] Add a Project Description 1/4 page
+	- [ ] Definition of the Problem
+	- [ ] Analysis of the Requirements
+	- [ ] Specifications
+	- [ ] Draft (UML)
+	- [ ] Copy Implementation
+	- [ ] Results and Tests
 - [ ] Initialise Project
 	- [ ] Gradle Command
 	- [ ] Git init
@@ -21,14 +29,6 @@ This project is being created as a programming project in Informatics class with
 	- [ ] Write first classes
 	- [ ] Write first tests
 	- [ ] Push to github
-- [ ] Create the Project Dossier for MSI
-	- [ ] Add a Project Description 1/4 page
-	- [ ] Definition of the Problem
-	- [ ] Analysis of the Requirements
-	- [ ] Specifications
-	- [ ] Draft (UML)
-	- [ ] Copy Implementation
-	- [ ] Results and Tests
 - [ ] Finish the Project
 	- [ ] Write a working interface
 	- [ ] Write a working application
@@ -169,6 +169,7 @@ Level Design | TBD
 Based on the requirements in the Milestone I file.
 
 - Main-Class is commented as follows:
+
 
 	```
 	// Date: 12.01.2018
