@@ -146,11 +146,23 @@ Or clone this repository
 
 ## Project Goals
 
+ - Desktop-App: Eartrainer
+ - Inspired by the game "Set", whereby the visual features are replaced by auditive ones.
+ - There is a menu screen where the level can be chosen.
+ - There is an in-game screen where the magic happens. 
+ - There is an after-game screen where the results are shown.
 
 ### Additional Goals
 
-[//]: # (@TODO: Define Project Goals)
+ - Multiple levels
+ - Add (compose) background music in the menu and after-game-screen.
 
+### Required Libraries
+ 
+ - jFugue
+ - javaFX
+ - some random stuff
+ - javax.sound.sampled
 
 ## Task Sharing
 Task | Person
