@@ -11,8 +11,8 @@ This project is being created as a programming project in Informatics class with
 
 ## TODOS
 - [ ] Initialise Project
-	- [ ] Gradle Command
-	- [ ] Git init
+	- [x] Gradle Command
+	- [x] Git init
 	- [ ] Copy this readme
 	- [ ] Add .gitignore
 	- [ ] Add .gitattributes
@@ -77,6 +77,8 @@ A Build tool for our application. Takes the task of compiling the code and runni
  - [Eclipse Plugin Installation guide](http://www.vogella.com/tutorials/EclipseGradle/article.html "gradle plugin for eclipe") Remark: Make sure to install `gradle 4.4.1` or the corresponding version. I don't know if there can be conflicts if we use different versions (though I doubt that).
  - [Github source code](https://github.com/gradle/gradle "gradle")
  - [Add dependencies](https://stackoverflow.com/questions/20700053/how-to-add-local-jar-file-dependency-to-build-gradle-file "gradle dependency stackoverflow")
+ - [The Maven Architecture]((https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html))
+
 
 ### Testing
  - [JUnit on Github](https://github.com/junit-team/junit4 "source code") 
@@ -86,10 +88,12 @@ A Build tool for our application. Takes the task of compiling the code and runni
  - [TDD](https://www.agilealliance.org/glossary/tdd/ "tdd") would be nice if we could actually implement some parts of the test-driven paradigm. (Note that under time pressure this is not going to work.)
 
 ### Front End
-After the 'coding part' and the testing part we should decide on which libraries to use to accomplish out task. One thing that needs to be covered is the how to make the Graphical User Interface (Something that I consider highly overrated!!!). We are going to use Java's go-to tool, namely javafx
+After the 'coding part' and the testing part we should decide on which libraries to use to accomplish out task. One thing that needs to be covered is the how to make the Graphical User Interface (Something that I consider highly overrated!!!). We are going to use Java's go-to tool, namely javafx.
+Why the fuck does anyone write such shit???
  - [JavaFx API](https://docs.oracle.com/javase/8/javafx/api/toc.htm "JavaFX API") (Don't get eye cancer here!!!)
  - [JavaFX Tutorial](http://code.makery.ch/library/javafx-8-tutorial/ "JavaFX Tutorial")
  - [Use JavaFX's WebView](https://docs.oracle.com/javafx/2/webview/jfxpub-webview.htm "JavaFX WebView") Could be used to just use html5 and css3 as well as js? to render the view. (This approach could be considered cheating)
+ - [JavaFX Guide](https://javabeginners.de/Frameworks/JavaFX/FXML.php)
 
 ### Further Libraries
 Since we are going to produce sound in one way or another it is necessary to check out some midi/sound libraries for Java.
@@ -103,6 +107,7 @@ A higher level library could be jFugue:
  - [jFugue](http://www.jfugue.org/ "jFugue") A high level midi parser, that take care of most of the dirty details, works out of the box.(?)
  - [Some basic examples](http://www.jfugue.org/examples.html "jfugue examples")
  - [jFugue API](http://www.jfugue.org/doc/index.html "jFugue API")
+
 
 ## Time Schedule
 List of important dates.
@@ -203,6 +208,12 @@ Based on the requirements in the Milestone I file.
 - The code should be slim! (Refactoring is a crucial part of TDD!)
 
 [//]: # (Was für en Gugus!)
+
+
+## Sources
+Everything we stumble upon doing research comes in this part.
+- [JavaFX Guide](https://javabeginners.de/Frameworks/JavaFX/FXML.php)
+- [Some basic examples](http://www.jfugue.org/examples.html "jfugue examples")
 
 ## License
 To be determined
