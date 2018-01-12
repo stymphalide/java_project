@@ -105,7 +105,7 @@ A higher level library could be jFugue:
 ## Time Schedule
 List of important dates.
 
-- [ ] 19.01.2018: Project Goals + Additional Goals defined @
+- [ ] 19.01.2018: Project Goals + Additional Goals defined
 - [ ] 14.02.2018: [Milestone I](http://www.vazquez-informatik.ch/files/AKSA_ProgProjLE1_MilestoneI.pdf "milestone1")
 - [ ] 21.03.2018: [Milestone II](http://www.vazquez-informatik.ch/files/AKSA_ProgProjLE1_MilestoneII.pdf "milestone2")
 
