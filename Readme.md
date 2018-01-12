@@ -1,11 +1,41 @@
 # Eartrainer
 This project is being created as a programming project in Informatics class with Ms Vazquez in January 2018.
 
+[Download](#download) and [install](#installation).
 
-[Installation](#install)
+[Time Schedule](#time-schedule)
 
-  
+[Project Goals](#project-goals)
 
+[Code of Conduct](#code-of-conduct)
+
+## TODOS
+- [ ] Create the Project Dossier for MSI
+	- [ ] Add a Project Description 1/4 page
+	- [ ] Definition of the Problem
+	- [ ] Analysis of the Requirements
+	- [ ] Specifications
+	- [ ] Draft (UML)
+	- [ ] Copy Implementation
+	- [ ] Results and Tests
+- [ ] Initialise Project
+	- [ ] Gradle Command
+	- [ ] Git init
+	- [ ] Copy this readme
+	- [ ] Add .gitignore
+	- [ ] Add .gitattributes
+	- [ ] Add already defined deps
+	- [ ] Create predefined directory structure
+	- [ ] Write first classes
+	- [ ] Write first tests
+	- [ ] Push to github
+- [ ] Finish the Project
+	- [ ] Write a working interface
+	- [ ] Write a working application
+	- [ ] Add Salt and Pepper!!!
+- [ ] Create the Project Dossier for MSII
+	- [ ] Write the TODO for this part.
+- [ ] Have a Beer where we celebrate the finished Project
 
 ## The Idea
 A game based on the game of [set](https://en.wikipedia.org/wiki/Set_(game) "Wikipedia").
@@ -22,6 +52,8 @@ These auditive features are:
 
  - Interval size (Out of a predetermined list of three)
  - ...
+
+[//]: # (@TODO: Refactor this into a project description part)
 
 
 ## Setup
@@ -70,24 +102,33 @@ A higher level library could be jFugue:
  - [Some basic examples](http://www.jfugue.org/examples.html "jfugue examples")
  - [jFugue API](http://www.jfugue.org/doc/index.html "jFugue API")
 
-### License
-To be determined
-
-[//]: # (@TODO: License that important??)
-
-### Time Schedule
+## Time Schedule
 List of important dates.
 
-[//]: # (@TODO: Fill in the gaps here.)
+- [] 19.01.2018: Project Goals + Additional Goals defined @
+- [] 14.02.2018: [Milestone I](http://www.vazquez-informatik.ch/files/AKSA_ProgProjLE1_MilestoneI.pdf "milestone1")
+- [] 21.03.2018: [Milestone II](http://www.vazquez-informatik.ch/files/AKSA_ProgProjLE1_MilestoneII.pdf "milestone2")
+
+[//]: # (@TODO: Make it exacter -> intermediate steps)
 
 
-### Project Structure
+## Project Structure
+The Project has the basic gradle structure.
+The source files i.e. the part that we write is in the ./src/ directory.
+
+
+### Tree
 Make a tree of the project structure.
 
-[//]: # (@TODO: Fill in the gaps here.)
+[//]: # (@TODO: tree . > tree_test)
 
 
-## Download
+## Installation
+### Prerequisites
+You need to have gradle installed:
+[Gradle Build Tool](https://gradle.org/ "gradle build tool")
+
+### Download
 
 Download an exectuable .jar archive [here](somerepository "exectuable")
 
@@ -97,15 +138,58 @@ Or clone this repository
 
 	git clone https://github.com/stymphalide/eartrainer.git
 
-
-## Install
-
-### Prerequisites
-You need to have gradle installed:
-[Gradle Build Tool](https://gradle.org/ "gradle build tool")
-
-After the installation of gradle run in a command line
-
 	cd eartrainer
 	gradle build
 	gradle run
+
+## Project Goals
+
+
+### Additional Goals
+
+[//]: # (@TODO: Define Project Goals)
+
+
+## Task Sharing
+Task | Person
+-----|-------
+Dependency Management | TBD
+Tests | TBD
+Interface | Angelo
+JavaFX | Angelo
+Gradle Build | TBD
+jFugue | Tobias
+Music Theory | TBD
+Music Choice | TBD
+Level Design | TBD
+
+[//]: # (@TODO: More explicit, Determine Persons)
+
+## Code of Conduct
+Based on the requirements in the Milestone I file.
+
+- Main-Class is commented as follows:
+
+	// Date: 12.01.2018
+	// Project Name: Eartrainer
+	// Names: Angelo Birrer G4L and Tobias Seefeld G4L
+	// Main Sources: TBD 
+	// Code Sharing: 
+
+[//]: # (@TODO: Evaluate main sources. Code sharing follows from task sharing.)
+
+- Every Class has a `/*classdoc*/` comment where the usage of the class is described.
+- After every import there is a `// What is this for` comment
+- Important variables (Probably instance variables of the class) are explained
+- Important Functions (Those that are used by the main function?) are explained
+- Larger code fragments such as (Nestings, loops constructors etc.)
+- Copy-pasted stackoverflow code has to be commented.
+- Larger code bits are stated on top of the class (I hope this will not happen too often.)
+- The code should be slim! (Refactoring is a crucial part of TDD!)
+
+[//]: # (Was für en Gugus!)
+
+## License
+To be determined
+
+[//]: # (@TODO: License that important??)
